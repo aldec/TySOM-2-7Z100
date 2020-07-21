@@ -1,0 +1,175 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Jan 17 18:38:36 2020
+# Process ID: 17745
+# Current directory: /space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp
+# Command line: vivado
+# Log file: /space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp/vivado.log
+# Journal file: /space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_dsa ../TySOM_2_7Z100.dsa
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/edatools/Xilinx/Vivado/2017.4/data/ip'.
+create_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 6178.297 ; gain = 120.652 ; free physical = 2067 ; free virtual = 18592
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/TySOM_2_7Z100.ipdefs/TySOM_2_7Z100.ipdefs_0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-3664] IP 'TySOM_2_7Z100_processing_system7_0_0' generated file not found '/space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp/sources_1/bd/TySOM_2_7Z100/ip/TySOM_2_7Z100_processing_system7_0_0/sim/libps7.so'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'TySOM_2_7Z100_processing_system7_0_0' generated file not found '/space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp/sources_1/bd/TySOM_2_7Z100/ip/TySOM_2_7Z100_processing_system7_0_0/sim/libps7.dll'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'TySOM_2_7Z100_processing_system7_0_0' generated file not found '/space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp/sources_1/bd/TySOM_2_7Z100/ip/TySOM_2_7Z100_processing_system7_0_0/sim/libremoteport.so'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'TySOM_2_7Z100_processing_system7_0_0' generated file not found '/space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp/sources_1/bd/TySOM_2_7Z100/ip/TySOM_2_7Z100_processing_system7_0_0/sim/libremoteport.dll'. Please regenerate to continue.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'TySOM_2_7Z100.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+TySOM_2_7Z100_auto_pc_0
+TySOM_2_7Z100_xbar_0
+TySOM_2_7Z100_axi_gpio_0_0
+TySOM_2_7Z100_proc_sys_reset_0_3
+TySOM_2_7Z100_proc_sys_reset_0_2
+TySOM_2_7Z100_axi_iic_0_0
+TySOM_2_7Z100_v_rgb2ycrcb_0_0
+TySOM_2_7Z100_proc_sys_reset_0_0
+TySOM_2_7Z100_axi_interconnect_0_0
+TySOM_2_7Z100_proc_sys_reset_0_1
+TySOM_2_7Z100_v_osd_0_0
+TySOM_2_7Z100_v_tc_0_0
+TySOM_2_7Z100_adi_axi_clkgen_0_0
+TySOM_2_7Z100_v_cresample_0_0
+TySOM_2_7Z100_axi_gpio_0_2
+TySOM_2_7Z100_axi_vdma_0_0
+TySOM_2_7Z100_processing_system7_0_0
+TySOM_2_7Z100_axis_subset_converter_0_0
+TySOM_2_7Z100_axi_protocol_converter_0_0
+TySOM_2_7Z100_v_axi4s_vid_out_0_0
+
+CRITICAL WARNING: [IP_Flow 19-4299] Failed to copy '/space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp/sources_1/bd/TySOM_2_7Z100/ip/TySOM_2_7Z100_processing_system7_0_0/sim/libps7.so' to '/space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp/TySOM_2_7Z100/TySOM_2_7Z100.srcs/sources_1/bd/TySOM_2_7Z100/ip/TySOM_2_7Z100_processing_system7_0_0/sim/libps7.so'
+CRITICAL WARNING: [IP_Flow 19-4299] Failed to copy '/space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp/sources_1/bd/TySOM_2_7Z100/ip/TySOM_2_7Z100_processing_system7_0_0/sim/libps7.dll' to '/space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp/TySOM_2_7Z100/TySOM_2_7Z100.srcs/sources_1/bd/TySOM_2_7Z100/ip/TySOM_2_7Z100_processing_system7_0_0/sim/libps7.dll'
+CRITICAL WARNING: [IP_Flow 19-4299] Failed to copy '/space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp/sources_1/bd/TySOM_2_7Z100/ip/TySOM_2_7Z100_processing_system7_0_0/sim/libremoteport.so' to '/space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp/TySOM_2_7Z100/TySOM_2_7Z100.srcs/sources_1/bd/TySOM_2_7Z100/ip/TySOM_2_7Z100_processing_system7_0_0/sim/libremoteport.so'
+CRITICAL WARNING: [IP_Flow 19-4299] Failed to copy '/space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp/sources_1/bd/TySOM_2_7Z100/ip/TySOM_2_7Z100_processing_system7_0_0/sim/libremoteport.dll' to '/space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp/TySOM_2_7Z100/TySOM_2_7Z100.srcs/sources_1/bd/TySOM_2_7Z100/ip/TySOM_2_7Z100_processing_system7_0_0/sim/libremoteport.dll'
+WARNING: [IP_Flow 19-2162] IP 'TySOM_2_7Z100_processing_system7_0_0' is locked:
+* IP definition 'ZYNQ7 Processing System (5.5)' for IP 'TySOM_2_7Z100_processing_system7_0_0' (customized with software release 2017.2_sdx) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'TySOM_2_7Z100_proc_sys_reset_0_0' is locked:
+* IP definition 'Processor System Reset (5.0)' for IP 'TySOM_2_7Z100_proc_sys_reset_0_0' (customized with software release 2017.1_sdx) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'TySOM_2_7Z100_proc_sys_reset_0_1' is locked:
+* IP definition 'Processor System Reset (5.0)' for IP 'TySOM_2_7Z100_proc_sys_reset_0_1' (customized with software release 2017.1_sdx) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'TySOM_2_7Z100_proc_sys_reset_0_2' is locked:
+* IP definition 'Processor System Reset (5.0)' for IP 'TySOM_2_7Z100_proc_sys_reset_0_2' (customized with software release 2017.1_sdx) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'TySOM_2_7Z100_proc_sys_reset_0_3' is locked:
+* IP definition 'Processor System Reset (5.0)' for IP 'TySOM_2_7Z100_proc_sys_reset_0_3' (customized with software release 2017.1_sdx) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'TySOM_2_7Z100_axi_iic_0_0' is locked:
+* IP definition 'AXI IIC (2.0)' for IP 'TySOM_2_7Z100_axi_iic_0_0' (customized with software release 2017.1_sdx) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'TySOM_2_7Z100_axi_interconnect_0_0' is locked:
+* IP definition 'AXI Interconnect (2.1)' for IP 'TySOM_2_7Z100_axi_interconnect_0_0' (customized with software release 2017.1_sdx) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'TySOM_2_7Z100_adi_axi_clkgen_0_0' is locked:
+* IP definition 'adi_axi_clkgen (1.0)' for IP 'TySOM_2_7Z100_adi_axi_clkgen_0_0' (customized with software release 2017.1_sdx) was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'TySOM_2_7Z100_axi_vdma_0_0' is locked:
+* IP definition 'AXI Video Direct Memory Access (6.3)' for IP 'TySOM_2_7Z100_axi_vdma_0_0' (customized with software release 2017.1_sdx) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'TySOM_2_7Z100_axi_protocol_converter_0_0' is locked:
+* IP definition 'AXI Protocol Converter (2.1)' for IP 'TySOM_2_7Z100_axi_protocol_converter_0_0' (customized with software release 2017.1_sdx) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'TySOM_2_7Z100_axis_subset_converter_0_0' is locked:
+* IP definition 'AXI4-Stream Subset Converter (1.1)' for IP 'TySOM_2_7Z100_axis_subset_converter_0_0' (customized with software release 2017.1_sdx) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'TySOM_2_7Z100_v_rgb2ycrcb_0_0' is locked:
+* IP definition 'RGB to YCrCb Color-Space Converter (7.1)' for IP 'TySOM_2_7Z100_v_rgb2ycrcb_0_0' (customized with software release 2017.1_sdx) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'TySOM_2_7Z100_v_cresample_0_0' is locked:
+* IP definition 'Chroma Resampler (4.0)' for IP 'TySOM_2_7Z100_v_cresample_0_0' (customized with software release 2017.1_sdx) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'TySOM_2_7Z100_v_osd_0_0' is locked:
+* IP definition 'Video On Screen Display (6.0)' for IP 'TySOM_2_7Z100_v_osd_0_0' (customized with software release 2017.1_sdx) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'TySOM_2_7Z100_v_axi4s_vid_out_0_0' is locked:
+* IP definition 'AXI4-Stream to Video Out (4.0)' for IP 'TySOM_2_7Z100_v_axi4s_vid_out_0_0' (customized with software release 2017.1_sdx) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'TySOM_2_7Z100_v_tc_0_0' is locked:
+* IP definition 'Video Timing Controller (6.1)' for IP 'TySOM_2_7Z100_v_tc_0_0' (customized with software release 2017.1_sdx) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'TySOM_2_7Z100_axi_gpio_0_0' is locked:
+* IP definition 'AXI GPIO (2.0)' for IP 'TySOM_2_7Z100_axi_gpio_0_0' (customized with software release 2017.1_sdx) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'TySOM_2_7Z100_axi_gpio_0_2' is locked:
+* IP definition 'AXI GPIO (2.0)' for IP 'TySOM_2_7Z100_axi_gpio_0_2' (customized with software release 2017.1_sdx) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'TySOM_2_7Z100_xbar_0' is locked:
+* IP definition 'AXI Crossbar (2.1)' for IP 'TySOM_2_7Z100_xbar_0' (customized with software release 2017.2_sdx) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'TySOM_2_7Z100_auto_pc_0' is locked:
+* IP definition 'AXI Protocol Converter (2.1)' for IP 'TySOM_2_7Z100_auto_pc_0' (customized with software release 2017.2_sdx) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+import_files: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 6224.652 ; gain = 46.355 ; free physical = 1961 ; free virtual = 18568
+INFO: Project created:TySOM_2_7Z100
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp/.Xil/Vivado-17745-pczak.alatek.com.pl/TySOM_2_7Z100/iprepo'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/TySOM_2_7Z100.ipdefs/TySOM_2_7Z100.ipdefs_0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [Vivado 12-5972] The DSA file has IP_REPO_PATH 'iprepo'. Added to ip_repo_paths on current project.
+Adding cell -- xilinx.com:ip:adi_axi_clkgen:1.0 - adi_axi_clkgen_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_switches
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_des
+Adding cell -- xilinx.com:ip:axi_iic:2.0 - axi_iic_hdmi
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - axi_protocol_converter_0
+Adding cell -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_hdmi
+Adding cell -- xilinx.com:ip:axis_subset_converter:1.1 - axis_subset_converter_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_100MHz_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_150MHz_1
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_200MHz_2
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_50MHz_3
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - ps7
+Adding cell -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
+Adding cell -- xilinx.com:ip:v_cresample:4.0 - v_cresample_0
+Adding cell -- xilinx.com:ip:v_osd:6.0 - v_osd_0
+Adding cell -- xilinx.com:ip:v_rgb2ycrcb:7.1 - v_rgb2ycrcb_0
+Adding cell -- xilinx.com:ip:v_tc:6.1 - v_tc_0
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - GND
+WARNING: [BD 41-1731] Type mismatch between connected pins: /ps7/FCLK_CLK0(clk) and /adi_axi_clkgen_0/drp_clk(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /ps7/FCLK_CLK2(clk) and /adi_axi_clkgen_0/clk(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /adi_axi_clkgen_0/clk_0(undef) and /v_axi4s_vid_out_0/vid_io_out_clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /adi_axi_clkgen_0/clk_0(undef) and /v_tc_0/clk(clk)
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <TySOM_2_7Z100> from BD file </space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp/TySOM_2_7Z100/TySOM_2_7Z100.srcs/sources_1/bd/TySOM_2_7Z100/TySOM_2_7Z100.bd>
+INFO: [BD 41-1799] The block design contains upgradeable cell(s), automatically upgrading to newest version...
+INFO: [IP_Flow 19-3422] Upgraded TySOM_2_7Z100_axi_gpio_0_0 (AXI GPIO 2.0) from revision 14 to revision 17
+INFO: [IP_Flow 19-3422] Upgraded TySOM_2_7Z100_axi_gpio_0_2 (AXI GPIO 2.0) from revision 14 to revision 17
+INFO: [IP_Flow 19-3422] Upgraded TySOM_2_7Z100_axi_iic_0_0 (AXI IIC 2.0) from revision 15 to revision 18
+INFO: [IP_Flow 19-3422] Upgraded TySOM_2_7Z100_axi_interconnect_0_0 (AXI Interconnect 2.1) from revision 13 to revision 16
+INFO: [IP_Flow 19-3422] Upgraded TySOM_2_7Z100_axi_protocol_converter_0_0 (AXI Protocol Converter 2.1) from revision 12 to revision 15
+INFO: [IP_Flow 19-3422] Upgraded TySOM_2_7Z100_axi_vdma_0_0 (AXI Video Direct Memory Access 6.3) from revision 0 to revision 3
+INFO: [IP_Flow 19-3422] Upgraded TySOM_2_7Z100_axis_subset_converter_0_0 (AXI4-Stream Subset Converter 1.1) from revision 11 to revision 15
+INFO: [IP_Flow 19-3422] Upgraded TySOM_2_7Z100_proc_sys_reset_0_0 (Processor System Reset 5.0) from revision 10 to revision 12
+INFO: [IP_Flow 19-3422] Upgraded TySOM_2_7Z100_proc_sys_reset_0_1 (Processor System Reset 5.0) from revision 10 to revision 12
+INFO: [IP_Flow 19-3422] Upgraded TySOM_2_7Z100_proc_sys_reset_0_2 (Processor System Reset 5.0) from revision 10 to revision 12
+INFO: [IP_Flow 19-3422] Upgraded TySOM_2_7Z100_proc_sys_reset_0_3 (Processor System Reset 5.0) from revision 10 to revision 12
+INFO: [IP_Flow 19-3422] Upgraded TySOM_2_7Z100_processing_system7_0_0 (ZYNQ7 Processing System 5.5) from revision 5 to revision 6
+WARNING: [BD 41-1731] Type mismatch between connected pins: /adi_axi_clkgen_0/drp_clk(undef) and /ps7_upgraded_ipi/FCLK_CLK0(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /adi_axi_clkgen_0/clk(undef) and /ps7_upgraded_ipi/FCLK_CLK2(clk)
+INFO: [IP_Flow 19-3422] Upgraded TySOM_2_7Z100_v_axi4s_vid_out_0_0 (AXI4-Stream to Video Out 4.0) from revision 6 to revision 8
+WARNING: [BD 41-1731] Type mismatch between connected pins: /adi_axi_clkgen_0/clk_0(undef) and /v_axi4s_vid_out_0_upgraded_ipi/vid_io_out_clk(clk)
+INFO: [IP_Flow 19-3422] Upgraded TySOM_2_7Z100_v_cresample_0_0 (Chroma Resampler 4.0) from revision 11 to revision 13
+INFO: [IP_Flow 19-3422] Upgraded TySOM_2_7Z100_v_osd_0_0 (Video On Screen Display 6.0) from revision 13 to revision 15
+INFO: [IP_Flow 19-3422] Upgraded TySOM_2_7Z100_v_rgb2ycrcb_0_0 (RGB to YCrCb Color-Space Converter 7.1) from revision 10 to revision 12
+INFO: [IP_Flow 19-3422] Upgraded TySOM_2_7Z100_v_tc_0_0 (Video Timing Controller 6.1) from revision 10 to revision 12
+WARNING: [BD 41-1731] Type mismatch between connected pins: /adi_axi_clkgen_0/clk_0(undef) and /v_tc_0_upgraded_ipi/clk(clk)
+Wrote  : </space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp/TySOM_2_7Z100/TySOM_2_7Z100.srcs/sources_1/bd/TySOM_2_7Z100/TySOM_2_7Z100.bd> 
+Wrote  : </space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp/TySOM_2_7Z100/TySOM_2_7Z100.srcs/sources_1/bd/TySOM_2_7Z100/ui/bd_5a39f6e.ui> 
+open_bd_design: Time (s): cpu = 00:00:48 ; elapsed = 00:00:47 . Memory (MB): peak = 6433.555 ; gain = 195.637 ; free physical = 1726 ; free virtual = 18378
+INFO: [Vivado 12-5431] Succesfully read DSA: ../TySOM_2_7Z100.dsa
+open_dsa: Time (s): cpu = 00:01:32 ; elapsed = 00:01:20 . Memory (MB): peak = 6433.555 ; gain = 375.910 ; free physical = 1726 ; free virtual = 18378
+/space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp/../TySOM_2_7Z100.dsa
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 20 17:17:49 2020...

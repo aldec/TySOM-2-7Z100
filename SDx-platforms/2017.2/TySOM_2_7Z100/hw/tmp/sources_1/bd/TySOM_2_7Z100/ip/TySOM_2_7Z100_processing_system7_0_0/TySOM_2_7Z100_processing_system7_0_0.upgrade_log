@@ -1,0 +1,24 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4_AR66007 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
+| Date         : Fri Mar  3 09:28:49 2017
+| Host         : alltech50.alltech.gda.pl running 64-bit Fedora release 20 (Heisenbug)
+| Command      : upgrade_ip
+| Device       : xc7z100ffg900-2
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TySOM_2_7Z100_processing_system7_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of TySOM_2_7Z100_processing_system7_0_0 (xilinx.com:ip:processing_system7:5.5 (Rev. 3)) to current project options.
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter PCW_TRACE_INTERNAL_WIDTH with default value 32 : a parameter called PCW_TRACE_INTERNAL_WIDTH already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_USE_AXI_NONSECURE with default value 0 : a parameter called PCW_USE_AXI_NONSECURE already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+

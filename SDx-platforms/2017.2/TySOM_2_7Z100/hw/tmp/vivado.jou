@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Jan 17 18:38:36 2020
+# Process ID: 17745
+# Current directory: /space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp
+# Command line: vivado
+# Log file: /space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp/vivado.log
+# Journal file: /space_1/github/TySOM/SDx-platforms/2017.2/TySOM_2_7Z100/hw/tmp/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_dsa ../TySOM_2_7Z100.dsa
+update_compile_order -fileset sources_1

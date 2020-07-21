@@ -1,0 +1,20 @@
+{
+    "example" : "bilateralfilter - File I/O",
+    "overview" : "bilateralfilter",
+    "board" : [
+        "TySOM_2_7Z100"
+    ],
+    "os" : [
+        "Linux"
+    ],
+    "system" : {
+        "dmclkid" : "2"
+    },
+    "accelerators" : [
+        {
+            "name" : "bilateralFilter",
+            "location" : "<PLATFORM>/sw/a9_linux/linux_domain/inc/xfopencv/include/imgproc/xf_bilateral_filter.hpp",
+            "clkid" : "2"
+        }
+    ]
+}

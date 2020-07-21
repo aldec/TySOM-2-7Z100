@@ -1,0 +1,55 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4_AR66007 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
+| Date         : Fri Mar  3 09:27:58 2017
+| Host         : alltech50.alltech.gda.pl running 64-bit Fedora release 20 (Heisenbug)
+| Command      : upgrade_ip
+| Device       : xc7z100ffg900-2
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TySOM_2_7Z100_axi_gpio_0_3'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the update of TySOM_2_7Z100_axi_gpio_0_3 (xilinx.com:ip:axi_gpio:2.0 (Rev. 9)) to current project options.
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Customization warnings
+-------------------------
+
+WARNING: An attempt to modify the value of disabled parameter 'C_GPIO2_WIDTH' from '32' to '1' has been ignored for IP '/axi_gpio_radar'
+
+WARNING: An attempt to modify the value of disabled parameter 'C_ALL_INPUTS_2' from '0' to '1' has been ignored for IP '/axi_gpio_radar'
+
+
+3. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  Please consult the warnings from the previous sections, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:axi_gpio:2.0 -user_name TySOM_2_7Z100_axi_gpio_0_3
+set_property -dict "\
+  CONFIG.C_ALL_INPUTS 1 \
+  CONFIG.C_ALL_INPUTS_2 1 \
+  CONFIG.C_ALL_OUTPUTS 0 \
+  CONFIG.C_ALL_OUTPUTS_2 0 \
+  CONFIG.C_DOUT_DEFAULT 0x00000000 \
+  CONFIG.C_DOUT_DEFAULT_2 0x00000000 \
+  CONFIG.C_GPIO2_WIDTH 1 \
+  CONFIG.C_GPIO_WIDTH 1 \
+  CONFIG.C_INTERRUPT_PRESENT 0 \
+  CONFIG.C_IS_DUAL 0 \
+  CONFIG.C_TRI_DEFAULT 0xFFFFFFFF \
+  CONFIG.C_TRI_DEFAULT_2 0xFFFFFFFF \
+  CONFIG.Component_Name TySOM_2_7Z100_axi_gpio_0_3 \
+  CONFIG.GPIO2_BOARD_INTERFACE Custom \
+  CONFIG.GPIO_BOARD_INTERFACE Custom \
+  CONFIG.USE_BOARD_FLOW false " [get_ips TySOM_2_7Z100_axi_gpio_0_3]
+
+
