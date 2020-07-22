@@ -54,6 +54,8 @@ Daughter Cards provided by Aldec:
 
 [GitHub Link](https://github.com/aldec/FMC-cards)
 
+<a name="tysom_sdx_platforms"/>
+
 ## SDx-platforms
 
 A collection of configuration platforms for Xilinx SDx tool that help customers use Aldec TySOM board with SDx to accelerate algorithms in Zynq FPGA chip.
