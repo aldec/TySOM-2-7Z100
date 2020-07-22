@@ -3,7 +3,6 @@
    - [SDx-platforms](#tysom_sdx_platforms)
      - [How to use TySOM platform with SDx](#tysom_sdx_platform_use)
    - [Vivado - board definition files](#tysom_board_def_files)
-   - [PetaLinux - BSP](#tysom_petalinux_bsp)
    - [Supported OSes](#tysom_supported_os)
      - [Ubuntu-Linaro](#ubuntu_linaro_os)
      - [Debian-Linaro](#debian_linaro_os)
@@ -12,7 +11,6 @@
      - [VxWorks](#vxworks_os)
      - [freeRTOS](#freertos_os)
      - [OpenWrt](#openwrt_os)
-   - [Yocto Project configurations](#yocto_project_cfg)
 
 <a name="tysom_main"/>
 
@@ -22,11 +20,23 @@ TySOM is a family of development boards for embedded applications that features 
 
 Aldec provides the following list of boards:
 -	[TySOM-3A (Xilinx Zynq UltraScale+ ZU19EG)](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_ultrascale_mpsoc_boards/tysom_3a)
+
+[GitHub Link](https://github.com/aldec/TySOM-3A-ZU19EG)
 -	[TySOM-3 (Xilinx Zynq UltraScale+ ZU7EV)](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_ultrascale_mpsoc_boards/tysom_3)
+
+[GitHub Link](https://github.com/aldec/TySOM-3-ZU7EV)
 -	[TySOM-2 (Xilinx Zynq XC7Z045 or XC7Z100)](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_7000/tysom_2)
+
+[GitHub Link](https://github.com/aldec/TySOM-2-7Z100)
 -	[TySOM-2A (Xilinx Zynq XC7Z030)](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_7000/tysom_2a)
+
+[GitHub Link](https://github.com/aldec/TySOM-2A-7Z030)
 -	[TySOM-1 (Xilinx Zynq XC7Z030)](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_7000/tysom_1)
+
+[GitHub Link](https://github.com/aldec/TySOM-1-7Z030)
 -	[TySOM-1A (Xilinx Zynq XC7Z010)](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_7000/tysom_1a)
+
+[GitHub Link](https://github.com/aldec/TySOM-1A-7Z010)
 
 [Link to the TySOM boards page](https://www.aldec.com/en/products/emulation/tysom_boards)
 
@@ -34,14 +44,15 @@ TySOM-3A, TySOM-3, TySOM-2 and TySOM-2A families contain FMC connectors which ca
 
 Daughter Cards provided by Aldec:
 -	[FMC-ADAS](https://www.aldec.com/en/products/emulation/daughter_cards/fmc_daughter/fmc_adas)
--	[FMC-VISION](https://www.aldec.com/en/products/emulation/daughter_cards/fmc_daughter/fmc_vision)
--	[FMC-INT](https://www.aldec.com/en/products/emulation/daughter_cards/fmc_daughter/fmc_intf)
+-	[FMC-INDUSTRY](https://www.aldec.com/en/products/emulation/daughter_cards/fmc_daughter/fmc_industry)
+-	[FMC-INTF](https://www.aldec.com/en/products/emulation/daughter_cards/fmc_daughter/fmc_intf)
 -	[FMC-IOT](https://www.aldec.com/en/products/emulation/daughter_cards/fmc_daughter/fmc_iot)
 -	[FMC-NET](https://www.aldec.com/en/products/emulation/daughter_cards/fmc_daughter/fmc_net)
 -	[FMC-QSFP](https://www.aldec.com/en/products/emulation/daughter_cards/fmc_daughter/fmc_qsfp)
--	[FMC-INDUSTRY](https://www.aldec.com/en/products/emulation/daughter_cards/fmc_daughter/fmc_industry)
+-	[FMC-NVMe](https://www.aldec.com/en/products/emulation/daughter_cards/fmc_daughter/fmc_nvme)
+-	[FMC-VISION](https://www.aldec.com/en/products/emulation/daughter_cards/fmc_daughter/fmc_vision)
 
-<a name="tysom_sdx_platforms"/>
+[GitHub Link](https://github.com/aldec/FMC-cards)
 
 ## SDx-platforms
 
@@ -61,7 +72,7 @@ In **Choose Hardware Platform** window user has to add TySOM platform by using *
 
 See **Appendix B: Managing Platforms and Repositories** of Xilinx instruction for more information.
 
-[Document](https://github.com/aldec/TySOM-2-7Z100/blob/master/SDx-platforms/How_to_use_Aldec_TySOM_board_in_Xilinx_SDx.pdf) contains all necessary information about using Aldec TySOM board in Xilinx SDx tool.
+[Document](https://github.com/aldec/TySOM-3-ZU7EV/blob/master/SDx-platforms/How_to_use_Aldec_TySOM_board_in_Xilinx_SDx.pdf) contains all necessary information about using Aldec TySOM board in Xilinx SDx tool.
 
 <a name="tysom_board_def_files"/>
 
@@ -71,37 +82,38 @@ Vivado board definition files contain configuration of Processing System and int
 
 The board definition files for all TySOM boards can be found in Vivado-board_files folder.
 
-[Document](https://github.com/aldec/TySOM-2-7Z100/blob/master/Vivado-board_files/How_to_build_an_FPGA_design_for_Aldec_TySOM_boards_using_board_definition_in_Xilinx_Vivado.pdf) contains all necessary information about using Aldec TySOM board in Xilinx Vivado tool with the board definition files.
+[Document](https://github.com/aldec/TySOM-3-ZU7EV/blob/master/Vivado-board_files/How_to_build_an_FPGA_design_for_Aldec_TySOM_boards_using_board_definition_in_Xilinx_Vivado.pdf) contains all necessary information about using Aldec TySOM board in Xilinx Vivado tool with the board definition files.
 
 The board definition files are provided for the following Aldec TySOM boards:
 -	[TySOM-3A (Xilinx Zynq UltraScale+ ZU19EG)](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_ultrascale_mpsoc_boards/tysom_3a)
--	[TySOM-3 (Xilinx Zynq UltraScale+ Zu7EV)](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_ultrascale_mpsoc_boards/tysom_3)
+
+[GitHub Link](https://github.com/aldec/TySOM-3A-ZU19EG)
+-	[TySOM-3 (Xilinx Zynq UltraScale+ ZU7EV)](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_ultrascale_mpsoc_boards/tysom_3)
+
+[GitHub Link](https://github.com/aldec/TySOM-3-ZU7EV)
 -	[TySOM-2 (Xilinx Zynq XC7Z045 or XC7Z100)](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_7000/tysom_2)
+
+[GitHub Link](https://github.com/aldec/TySOM-2-7Z100)
 -	[TySOM-2A (Xilinx Zynq XC7Z030)](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_7000/tysom_2a)
+
+[GitHub Link](https://github.com/aldec/TySOM-2A-7Z030)
 -	[TySOM-1 (Xilinx Zynq XC7Z030)](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_7000/tysom_1)
+
+[GitHub Link](https://github.com/aldec/TySOM-1-7Z030)
 -	[TySOM-1A (Xilinx Zynq XC7Z010)](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_7000/tysom_1a)
+
+[GitHub Link](https://github.com/aldec/TySOM-1A-7Z010)
 
 The board definition files contain also FMC cards definitions:
 -	[FMC-ADAS](https://www.aldec.com/en/products/emulation/daughter_cards/fmc_daughter/fmc_adas)
+-	[FMC-INDUSTRY](https://www.aldec.com/en/products/emulation/daughter_cards/fmc_daughter/fmc_industry)
+-	[FMC-INTF](https://www.aldec.com/en/products/emulation/daughter_cards/fmc_daughter/fmc_intf)
+-	[FMC-IOT](https://www.aldec.com/en/products/emulation/daughter_cards/fmc_daughter/fmc_iot)
+-	[FMC-NET](https://www.aldec.com/en/products/emulation/daughter_cards/fmc_daughter/fmc_net)
+-	[FMC-QSFP](https://www.aldec.com/en/products/emulation/daughter_cards/fmc_daughter/fmc_qsfp)
+-	[FMC-NVMe](https://www.aldec.com/en/products/emulation/daughter_cards/fmc_daughter/fmc_nvme)
 
-<a name="tysom_petalinux_bsp"/>
-
-## PetaLinux - BSP
-
-Many embedded hardware platforms require small-sized embedded Linux OS and filesystem.
-Aldec TySOM boards which based on Xilinx Zynq can be used in any embedded systems.
-For this purpose, Xilinx PetaLinux tools can be used to generate a custom filesystem image with additional built-in libraries, applications and system tools.
-
-The board definition files for TySOM boards can be found in Petalinux_BSP folder.
-
-[Document](https://github.com/aldec/TySOM-2-7Z100/blob/master/Petalinux_BSP/Preparing_Custom_Linux_Boot_Files_with_Xilinx_Petalinux_Tools.pdf) contains all necessary information about building PetaLinux OS and filesystem for TySOM boards.
-
-The PetaLinux BSP files are provided for the following Aldec TySOM boards:
--	[TySOM-3A (Xilinx Zynq UltraScale+ ZU19EG)](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_ultrascale_mpsoc_boards/tysom_3a)
--	[TySOM-3 (Xilinx Zynq UltraScale+ Zu7EV)](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_ultrascale_mpsoc_boards/tysom_3)
-
-The PetaLinux BSP files are provided for the following PetaLinux versions:
-- 2018.3
+[GitHub Link](https://github.com/aldec/FMC-cards)
 
 <a name="tysom_supported_os"/>
 
@@ -215,18 +227,3 @@ Kernel version: 4.4.14
 OpenWrt version: 15.05.1
 
 - [OpenWrt webpage](https://openwrt.org/)
-
-
----
-
-<a name="yocto_project_cfg"/>
-
-## Yocto Project configurations
-
-[The Yocto Project](https://www.yoctoproject.org/) is an open source project to help developers creating a custom Linux-based systems.
-
-Aldec provides configuration for Yocto project for the following list of boards:
--	[TySOM-3A (Xilinx Zynq UltraScale+ ZU19EG)](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_ultrascale_mpsoc_boards/tysom_3a)
--	[TySOM-3 (Xilinx Zynq UltraScale+ ZU7EV)](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_ultrascale_mpsoc_boards/tysom_3)
-
-[Document](https://github.com/aldec/TySOM-2-7Z100/blob/master/Yocto_Project/How_to_configure_and_build_Linux_OS_with_Yocto_project.pdf) contains all necessary information about using the Yocto Project to build a custom Linux for the boards.
