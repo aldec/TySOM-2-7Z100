@@ -59,6 +59,7 @@ The board definition files contain also FMC cards definitions:
 2018.3 version provided in this repo was tested with the following Vivado versions:
 - 2018.3, 
 - 2019.1,
-- 2020.2
+- 2020.2,
+- 2021.1
 
 The provided Vivado board files can be used with these versions.
