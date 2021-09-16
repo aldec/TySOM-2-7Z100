@@ -1,0 +1,8 @@
+/* linux */
+the_ROM_image:
+{
+  [bootloader]<TySOM_2_7Z100_FMC2_ADAS/boot/zynq_fsbl.elf>
+  <bitstream>  
+  <uboot,TySOM_2_7Z100_FMC2_ADAS/boot/u-boot.elf>
+  [load=0x00100000] <dtb,TySOM_2_7Z100_FMC2_ADAS/boot/system.dtb>
+}
