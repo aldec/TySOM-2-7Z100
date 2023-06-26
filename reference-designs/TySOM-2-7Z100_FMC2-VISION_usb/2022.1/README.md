@@ -1,5 +1,6 @@
-## USB 3.0 example design for TySOM-2-7Z100 evaluation board with FMC-VISION
-This is example design for Aldec TySOM-2-7Z100 evaluation board with FMC-VISION daughter board. The design performs USB 3.0 functionality based on FMC-VISION hardware.
+![Aldec, Inc.](https://www.aldec.com/images/content/corporate/Corporate_Logo_Aldec_Crescent.png)
+## USB 3.0 example design for TySOM-2-7Z100 development board with FMC-VISION
+This is example design for Aldec TySOM-2-7Z100 development board with FMC-VISION daughter board. The design performs USB 3.0 functionality based on FMC-VISION hardware.
 
 ### Hardware requirements
 - Host board: [TySOM-2-7Z100](https://www.aldec.com/en/products/emulation/tysom_boards/zynq_7000_soc/tysom_2_7z100#description)
@@ -41,5 +42,3 @@ xilinx-pcie 50000000.axi-pcie: Link Down
 In that case USB 3.0 can not work properly. The issue appears mainly in first booting after powering-on the board.
 
 Solution: reboot the board
-
-![Aldec, Inc.](https://www.aldec.com/images/content/corporate/Corporate_Logo_Aldec_Crescent.png)

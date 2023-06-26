@@ -1,3 +1,4 @@
+![Aldec, Inc.](https://www.aldec.com/images/content/corporate/Corporate_Logo_Aldec_Crescent.png)
 ## Build root filesystem and Linux kernel with using Petalinux
 
 ### Requirements
@@ -51,5 +52,3 @@ For root file systems located on second partition copy the following set of file
 - boot.scr (images/linux/boot.scr)
 - system.dtb (images/linux/system.dtb)
 - uImage (images/linux/uImage)
-
-![Aldec, Inc.](https://www.aldec.com/images/content/corporate/Corporate_Logo_Aldec_Crescent.png)
