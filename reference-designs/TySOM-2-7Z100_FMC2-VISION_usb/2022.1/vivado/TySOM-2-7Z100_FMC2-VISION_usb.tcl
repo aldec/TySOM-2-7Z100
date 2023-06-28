@@ -23,7 +23,7 @@
 # 2. The following source(s) files that were local or imported into the original project.
 #    (Please see the '$orig_proj_dir' and '$origin_dir' variable setting below at the start of the script)
 #
-#    "./TySOM-2-7Z100_FMC2-VISION_usb.srcs/constrs_1/new/constrs.xdc"
+#    "./TySOM-2-7Z100_FMC2-VISION_usb.srcs/constrs_1/constrs.xdc"
 #
 # 3. The following remote source files that were added to the original project:-
 #
@@ -35,7 +35,7 @@
 proc checkRequiredFiles { origin_dir} {
   set status true
   set files [list \
- "[file normalize "$origin_dir/TySOM-2-7Z100_FMC2-VISION_usb.srcs/constrs_1/new/constrs.xdc"]"\
+ "[file normalize "$origin_dir/TySOM-2-7Z100_FMC2-VISION_usb.srcs/constrs_1/constrs.xdc"]"\
   ]
   foreach ifile $files {
     if { ![file isfile $ifile] } {
@@ -178,16 +178,16 @@ if {[string equal [get_filesets -quiet constrs_1] ""]} {
 set obj [get_filesets constrs_1]
 
 # Add/Import constrs file and set constrs file properties
-set file "[file normalize ${origin_dir}/TySOM-2-7Z100_FMC2-VISION_usb.srcs/constrs_1/new/constrs.xdc]"
+set file "[file normalize ${origin_dir}/TySOM-2-7Z100_FMC2-VISION_usb.srcs/constrs_1/constrs.xdc]"
 set file_imported [import_files -fileset constrs_1 [list $file]]
-set file "new/constrs.xdc"
+set file "constrs.xdc"
 set file_obj [get_files -of_objects [get_filesets constrs_1] [list "*$file"]]
 set_property -name "file_type" -value "XDC" -objects $file_obj
 
 # Set 'constrs_1' fileset properties
 set obj [get_filesets constrs_1]
-#set_property -name "target_constrs_file" -value "$proj_dir/${_xil_proj_name_}.srcs/constrs_1/new/constrs.xdc" -objects $obj
-#set_property -name "target_ucf" -value "$proj_dir/${_xil_proj_name_}.srcs/constrs_1/new/constrs.xdc" -objects $obj
+#set_property -name "target_constrs_file" -value "$proj_dir/${_xil_proj_name_}.srcs/constrs_1/constrs.xdc" -objects $obj
+#set_property -name "target_ucf" -value "$proj_dir/${_xil_proj_name_}.srcs/constrs_1/constrs.xdc" -objects $obj
 
 # Create 'sim_1' fileset (if not found)
 if {[string equal [get_filesets -quiet sim_1] ""]} {
