@@ -61,5 +61,6 @@ The board definition files contain also FMC cards definitions:
 - 2019.1,
 - 2020.2,
 - 2021.1
+- 2022.1
 
 The provided Vivado board files can be used with these versions.
