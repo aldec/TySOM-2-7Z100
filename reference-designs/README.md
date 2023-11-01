@@ -3,6 +3,7 @@
 |Reference design name|Functionality|Project link|
 |---|---|---|
 |TySOM-2-7Z100_FMC2-VISION_usb|USB 3.0 support on FMC-VISION|[link](https://github.com/aldec/TySOM-2-7Z100/tree/master/reference-designs/TySOM-2-7Z100_FMC2-VISION_usb/2022.1)|
+|TySOM-2-7Z100|Base design with HDMI support|[link](https://github.com/aldec/TySOM-2-7Z100/tree/master/reference-designs/TySOM-2-7Z100/2021.1)|
 
 
 
