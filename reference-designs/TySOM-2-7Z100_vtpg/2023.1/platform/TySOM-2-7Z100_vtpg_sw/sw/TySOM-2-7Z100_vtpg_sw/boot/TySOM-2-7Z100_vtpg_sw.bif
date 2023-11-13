@@ -1,0 +1,7 @@
+/*TySOM-2-7Z100_vtpg_sw*/
+the_ROM_image:
+{
+  [bootloader]<TySOM-2-7Z100_vtpg_sw/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}
