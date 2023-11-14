@@ -54,7 +54,9 @@ if { [info exists ::origin_dir_loc] } {
   set origin_dir $::origin_dir_loc
 }
 
-set_param board.repoPaths [list $origin_dir/vivado_board_definitions]
+# Set Vivado board definitions repository
+set board_repo_dir "$origin_dir/../../../../Vivado-board_files/2018.3/TySOM-2-7Z100"
+set_param board.repoPaths [list $origin_dir/vivado_board_definitions $board_repo_dir]
 
 # Set the project name
 set _xil_proj_name_ "TySOM-2-7Z100_vtpg"

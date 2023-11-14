@@ -65,4 +65,4 @@ proc create_app_pfm args {
 
 # Run procedures
 create_app_xsa ${ws} ${name} ${xsa}
-#create_app_pfm ${ws} ${name}_1 ${platform}
+#create_app_pfm ${ws} ${name} ${platform}
